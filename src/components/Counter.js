@@ -1,21 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Counter.css';
+import TestPopUp from "./TestPopUp";
 
-const Counter = ( {number, color, index, onIncrement, onDecrement, onSetColor} ) => {
+const Counter = ( {number, color, onIncrement, onDecrement, onSetColor, showTestPopUp} ) => {
     return (
         <div
             className="Counter"
-            onClick={() => onIncrement(index)}
+            onClick={onIncrement}
             onContextMenu={ (e) => {
                 e.preventDefault();
-                onDecrement(index);
+                onDecrement();
             }}
-            onDoubleClick={() => onSetColor(index)}
+            onDoubleClick={onSetColor}
             style={{
                 backgroundColor: color
             }}>
             {number}
+            {showTestPopUp &&<TestPopUp/>}
         </div>
     );
 }
