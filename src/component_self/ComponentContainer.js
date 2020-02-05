@@ -2,10 +2,14 @@ import React from 'react';
 import ButtonGroup from './ButtonGroup';
 import ButtonGroup2 from "./ButtonGroup2";
 
-const ComponentContainer = ({handlerButtonGroup}) => {
+const ComponentContainer = ({handlerButtonGroup, buttonOnClick}) => {
 
     function handlerButtonGroup (value) {
         console.log('button ' + value);
+    }
+
+    buttonOnClick = () => {
+
     }
 
     return (
