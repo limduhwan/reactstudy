@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonGroup from './ButtonGroup';
 import ButtonGroup2 from "./ButtonGroup2";
+import App_EpicMenu from './EpicMenu/App_EpicMenu';
 
 const ComponentContainer = ({handlerButtonGroup, buttonOnClick}) => {
 
@@ -19,6 +20,7 @@ const ComponentContainer = ({handlerButtonGroup, buttonOnClick}) => {
                 onChange={handlerButtonGroup} ></ButtonGroup>
             <ButtonGroup2
                 buttons={[{value: 1, title: 11}, {value: 2, title: 22}, {value: 3, title: 33}]}/>
+                <App_EpicMenu/>
         </div>
     );
 }
