@@ -14,7 +14,8 @@ class ListWrapper extends Component{
             items,
         }
 
-        return <Component {...props}/>
+        // return <Component {...props}/>
+        return <></>
     }
 }
 

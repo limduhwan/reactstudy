@@ -6,7 +6,7 @@ import ClassHooking from './hooking/ClassHooking';
 import ComponentContainer from './component_self/ComponentContainer';
 import ClipBoardCopyExample from './ClipBoard/ClipBoardCopyExample';
 import RefExample from './ref/ref_Example';
-import SortableListContainer from "./SortableList/SortableListContainer";
+import Index from "./SortableList/src";
 
 class App extends Component {
 
@@ -24,7 +24,7 @@ class App extends Component {
                 </div>
                 <ClipBoardCopyExample/>
                 <RefExample/>
-                <SortableListContainer/>
+                <Index/>
             </div>
         )
     }
