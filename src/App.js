@@ -7,6 +7,7 @@ import ComponentContainer from './component_self/ComponentContainer';
 import ClipBoardCopyExample from './ClipBoard/ClipBoardCopyExample';
 import RefExample from './ref/ref_Example';
 import Index from "./SortableList/src";
+import Infinite from './InfiniteScroll/app/App';
 
 class App extends Component {
 
@@ -14,17 +15,18 @@ class App extends Component {
         return (
             <div>
                 {/*<Counter/>*/}
-                <CounterContainer/>
-                <HookExample/>
-                <div>
-                    <ClassHooking/>
-                </div>
-                <div>
-                    <ComponentContainer/>
-                </div>
-                <ClipBoardCopyExample/>
-                <RefExample/>
-                <Index/>
+                {/*<CounterContainer/>*/}
+                {/*<HookExample/>*/}
+                {/*<div>*/}
+                {/*    <ClassHooking/>*/}
+                {/*</div>*/}
+                {/*<div>*/}
+                {/*    <ComponentContainer/>*/}
+                {/*</div>*/}
+                {/*<ClipBoardCopyExample/>*/}
+                {/*<RefExample/>*/}
+                {/*<Index/>*/}
+                <Infinite/>>
             </div>
         )
     }

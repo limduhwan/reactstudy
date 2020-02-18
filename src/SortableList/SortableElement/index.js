@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function sortableElement(
+function sortableElement(
     WrappedComponent,
 )
 {
@@ -13,3 +13,6 @@ export default function sortableElement(
 
     }
 };
+
+export default sortableElement;
+
