@@ -12,15 +12,15 @@ class ReactScrolla extends Component {
     handleScroll(){
         const { percentage, onPercentage } = this.props;
 
-        const { scrollTop, scrollHeight, clientHeight } = this.container;
-
-        if (percentage && onPercentage) {
-            const percentNow = scrollTop / (scrollHeight - clientHeight) * 100;
-
-            if (percentNow > percentage) {
-                onPercentage();
-            }
-        }
+        // const { scrollTop, scrollHeight, clientHeight } = this.container;
+        //
+        // if (percentage && onPercentage) {
+        //     const percentNow = scrollTop / (scrollHeight - clientHeight) * 100;
+        //
+        //     if (percentNow > percentage) {
+        //         onPercentage();
+        //     }
+        // }
     }
 
     render() {

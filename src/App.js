@@ -8,6 +8,8 @@ import ClipBoardCopyExample from './ClipBoard/ClipBoardCopyExample';
 import RefExample from './ref/ref_Example';
 import Index from "./SortableList/src";
 import Infinite from './InfiniteScroll/app/App';
+import AccordianContainer from "./accordian/AccordianContainer";
+import CloneElement from "./cloneElement/CloneElement";
 
 class App extends Component {
 
@@ -26,7 +28,9 @@ class App extends Component {
                 {/*<ClipBoardCopyExample/>*/}
                 {/*<RefExample/>*/}
                 {/*<Index/>*/}
-                <Infinite/>>
+                {/*<Infinite/>*/}
+                <AccordianContainer/>
+                <CloneElement/>
             </div>
         )
     }
