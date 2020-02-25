@@ -1,15 +1,9 @@
-import React, { Component } from 'react';
-import Counter from './components/Counter';
-import CounterContainer from './containers/ConterContainer';
-import HookExample from './hooking/HookExample';
-import ClassHooking from './hooking/ClassHooking';
-import ComponentContainer from './component_self/ComponentContainer';
-import ClipBoardCopyExample from './ClipBoard/ClipBoardCopyExample';
-import RefExample from './ref/ref_Example';
-import Index from "./SortableList/src";
-import Infinite from './InfiniteScroll/app/App';
+import React, {Component} from 'react';
 import AccordianContainer from "./accordian/AccordianContainer";
 import CloneElement from "./cloneElement/CloneElement";
+import ComponentLifeCycle from './Component_LifeCycle/ComponentLifeCycle';
+import Drag_listview_sample from './drag_listview_sample/Drag_listview_sample';
+import Drag_listView from './drag_listview/Drag_listView';
 
 class App extends Component {
 
@@ -31,6 +25,9 @@ class App extends Component {
                 {/*<Infinite/>*/}
                 <AccordianContainer/>
                 <CloneElement/>
+                <ComponentLifeCycle/>
+                <Drag_listview_sample/>
+                <Drag_listView/>
             </div>
         )
     }

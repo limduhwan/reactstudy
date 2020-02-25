@@ -5,7 +5,7 @@ import './lib/style/index.css';
 
 const AccordianContainer = () => (
     <div>
-      <h1>Accordion Component 만들기</h1>
+      {/*<h1>Accordion Component 만들기</h1>*/}
       <Accordion atomic={true}>
         <AccordionItem title="Title 1">
           <DummyContent/>
