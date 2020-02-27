@@ -5,6 +5,8 @@ import ComponentLifeCycle from './Component_LifeCycle/ComponentLifeCycle';
 import Drag_listView from './drag_listview/Drag_listView';
 import Drag_listview_sample from './drag_listview_sample/Drag_listview_sample';
 import UndoApp from './undo/undoApp';
+import HookExample from "./hooking/HookExample";
+import ClassHooking from "./hooking/ClassHooking";
 
 class App extends Component {
     render() {
@@ -12,7 +14,7 @@ class App extends Component {
             <div>
                 {/*<Counter/>*/}
                 {/*<CounterContainer/>*/}
-                {/*<HookExample/>*/}
+                <HookExample/>
                 {/*<div>*/}
                 {/*    <ClassHooking/>*/}
                 {/*</div>*/}

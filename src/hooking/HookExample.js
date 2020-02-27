@@ -5,7 +5,7 @@ function HookExample() {
 
     useEffect( () => {
         document.title = `You clicked ${count} times`;
-    });
+    }, [count]);
 
     return (
       <div>
