@@ -4,6 +4,7 @@ import CloneElement from "./cloneElement/CloneElement";
 import ComponentLifeCycle from './Component_LifeCycle/ComponentLifeCycle';
 import Drag_listview_sample from './drag_listview_sample/Drag_listview_sample';
 import Drag_listView from './drag_listview/Drag_listView';
+import UndoApp from './undo/undoApp';
 
 class App extends Component {
 
@@ -23,11 +24,12 @@ class App extends Component {
                 {/*<RefExample/>*/}
                 {/*<Index/>*/}
                 {/*<Infinite/>*/}
-                <AccordianContainer/>
-                <CloneElement/>
-                <ComponentLifeCycle/>
-                <Drag_listview_sample/>
-                <Drag_listView/>
+                {/*<AccordianContainer/>*/}
+                {/*<CloneElement/>*/}
+                {/*<ComponentLifeCycle/>*/}
+                {/*<Drag_listview_sample/>*/}
+                {/*<Drag_listView/>*/}
+                <UndoApp/>
             </div>
         )
     }
