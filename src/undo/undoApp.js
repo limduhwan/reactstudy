@@ -4,6 +4,9 @@ import { Provider } from 'react-redux';
 import {createStore} from "redux";
 import reducer from './reducers';
 import VisibleTodoList from "./containers/VisibleTodoList";
+import UndoRedo from "./containers/UndoRedo";
+import FilterLink from "./containers/FilterLink";
+import Footer from "./components/Footer";
 
 const store = createStore(reducer);
 
@@ -13,6 +16,8 @@ export default function UndoApp() {
       <div>
         <AddTodo/>
         <VisibleTodoList/>
+        <Footer/>
+        <UndoRedo id='123'/>
       </div>
     </Provider>
   )
