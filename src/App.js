@@ -7,6 +7,9 @@ import Drag_listview_sample from './drag_listview_sample/Drag_listview_sample';
 import UndoApp from './undo/undoApp';
 import HookExample from "./hooking/HookExample";
 import ClassHooking from "./hooking/ClassHooking";
+import Columns from './column_resizing/src/index';
+import Demo from './column_resizing/src/ColumnResizing';
+import ColumnResizing from "./column_resizing_self/src/ColumnResizing";
 
 class App extends Component {
     render() {
@@ -14,7 +17,7 @@ class App extends Component {
             <div>
                 {/*<Counter/>*/}
                 {/*<CounterContainer/>*/}
-                <HookExample/>
+                {/*<HookExample/>*/}
                 {/*<div>*/}
                 {/*    <ClassHooking/>*/}
                 {/*</div>*/}
@@ -30,7 +33,10 @@ class App extends Component {
                 {/*<ComponentLifeCycle/>*/}
                 {/*<Drag_listview_sample/>*/}
                 {/*<Drag_listView/>*/}
-                <UndoApp/>
+                {/*<UndoApp/>*/}
+                <Demo/>
+                <ColumnResizing/>
+
             </div>
         )
     }
