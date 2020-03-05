@@ -10,6 +10,7 @@ import ClassHooking from "./hooking/ClassHooking";
 import Columns from './column_resizing/src/index';
 import Demo from './column_resizing/src/ColumnResizing';
 import ColumnResizing from "./column_resizing_self/src/ColumnResizing";
+import CopyPaste from "./copy_paste/CopyPaste";
 
 class App extends Component {
     render() {
@@ -34,8 +35,10 @@ class App extends Component {
                 {/*<Drag_listview_sample/>*/}
                 {/*<Drag_listView/>*/}
                 {/*<UndoApp/>*/}
-                <Demo/>
-                <ColumnResizing/>
+                {/*<Demo/>*/}
+                {/*<ColumnResizing/>*/}
+                {/*<Switch/>*/}
+                <CopyPaste/>
 
             </div>
         )

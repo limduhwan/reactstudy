@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "aphrodite": "^2.4.0",
     "classnames": "^2.2.6",
+    "inline-style-prefixer": "^5.1.2",
     "lodash": "^4.17.15",
     "lodash.random": "^3.2.0",
     "prop-types": "^15.7.2",
